@@ -1,0 +1,419 @@
+/* Reset */ 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main styling */ 
+
+html,body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+    background: #f7f7e8;
+}
+
+a{
+    color: #fff;
+    text-decoration : none
+}
+
+
+p {
+   margin: 10px 0;
+   line-height: 1.7em;
+}
+
+/* Utility */ 
+.clr {
+    clear :both;
+}
+.wh-color {
+    color : #f1f1f1;
+}
+.container {
+    margin: auto;
+    max-width: 1100px;
+    padding: 0 20px;
+    overflow: auto;
+}
+
+.text-primary {
+    color : #059a7c;
+}
+.text-secondary {
+    color : #f89c51;
+}
+
+.btn{
+    display: inline-block;
+    background: #fff;
+    color : #07a888;
+    font-size: 18px;
+    padding: 13px 20px;
+    transition: .5s ease-in-out;
+    
+}
+.btn:hover {
+    background: #07a888;
+    color : #fff;
+}
+
+.btn-price{
+    display: inline-block;
+    background: #fff;
+    color : #fff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 13px 20px;
+    transition: .5s ease-in-out;
+    
+}
+.btn-price:hover{
+    background: #f1f1f1;
+   
+}
+
+.bg-primay{
+    background: #059a7c ;
+    color : #fff
+}
+
+
+.under{
+    text-decoration:line-through;
+}
+.wh-bg{
+    background: #ffba93;;
+}
+
+/* Header */ 
+
+#header {
+    height: 100vh;
+    background: url('../img/maldives-2.jpg') no-repeat center center/cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+#navbar {
+    background: rgba(255, 255, 255,0.15);
+    overflow: auto;
+    min-height: 65px;
+}
+
+
+#navbar .logo {
+    padding-top: 15px;
+    font-size: 30px;
+    color  : #fff;
+    float: right;
+}
+
+#navbar ul {
+    float : left;
+    list-style: none;
+}
+
+#navbar ul li {
+    float: left;
+}
+
+#navbar ul li a {
+    display: block;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 15px ;
+    text-align: center;
+    transition: border .1s ease-in-out;
+}
+
+#navbar ul li a:hover {
+   background: #059a7c;
+}
+
+
+
+#showcase .showcase-content {
+    padding-top: 180px;
+    text-align: center;
+   
+}
+
+.showcase-content h1,
+ .main-text {
+    margin-bottom: 20px;
+ 
+}
+
+.showcase-content h1 {
+    font-size: 58px;
+    line-height: 1.2em;
+}
+
+.main-text {
+    background: rgba(255, 255, 255,0.15);
+    font-size: 20px;
+    color: #f6f6f6;
+}
+
+
+ 
+/* Info */ 
+
+#history {
+    text-align: center;
+}
+#history h3{
+    font-size: 25px;
+}
+
+#history p{
+    margin-bottom: 20px;
+}
+
+
+#history .history {
+    height: 500px;
+    background: #cfdac8;
+}
+
+#history .history .right-hisrory {
+    float: right;
+    width: 50%;
+    height: 100%;
+    padding: 180px 30px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.left-hisrory {
+    float: left;
+    width: 50%;
+    min-height: 100%;
+    background: url('../img/artem.jpg') no-repeat center center/cover;
+    background-attachment: fixed;
+    
+
+}
+
+/* features */ 
+.activities {
+    height: 100%;
+    margin-bottom: 40px ;
+}
+#features {
+    
+    margin-top: 50px;
+    height: 100%;
+}
+
+
+#features .primary {
+    font-size: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+#features .primary:before{
+    content: '';
+    position: relative;
+    right: 10px;
+    border: 4px solid #444;
+    
+}
+
+.box {
+    border-radius: 5px;
+    width: 300px;
+    height:400px ;
+    float: left;
+    margin: 0 20px 40px ;
+    background: #fff;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0,0.3) ;
+}
+
+.actvity-1 {
+    background: url('../img/acitivities.jpg') no-repeat center center/cover;
+}
+.actvity-2 {
+    background: url('../img/acitivities2.jpg') no-repeat center center/cover;
+}
+.actvity-3 {
+    background: url('../img/acitivities3.jpg') no-repeat center center/cover;
+}
+
+.box-info {
+    border-radius: 5px;
+    width: 300px;
+    height:400px ; 
+    background: rgba(0, 0, 0,0.3);
+    padding: 180px 65px;
+    color: #fff;
+    opacity: 0;
+    font-size: 24px;
+    text-align: center;
+}
+
+/* features sunset */ 
+
+.sunset {
+    width: 100%;
+    height: 400px;
+    background: url('../img/Sunset.jpg') no-repeat center center/cover;
+    background-attachment: fixed;
+}
+
+.sunset-content {
+    font-size : 35px;
+    color: #f8f8f8;
+    width: 50%;
+    padding-top: 50px;
+    margin: 20px auto;
+    text-align: center;
+    line-height: 1.4em;
+    
+}
+
+.sunset-content h1 {
+    background: rgba(0, 0, 0,0.1);
+    padding: 50px;
+}
+
+/* prices */ 
+#price {
+    position: relative;
+    height: 400px;
+}
+.box-cards{
+    position: absolute;
+    top : -5px;
+    transform: translate(23%,-5%);
+   
+}
+
+
+.cards {
+   
+    width: 240px;
+    text-align: center;
+    background: #f89c51;
+    color: #444;
+    margin-right: 10px;
+    float: left;
+
+}
+
+
+.cards a{
+    font-size: 23px;
+    color: #edc988;
+    width: 100%;
+
+}
+
+.cards-details {
+    background: #fff;
+}
+
+.cards-details h3 {
+    font-size : 30px;
+    background: #f89c51 ;
+    text-align : center;
+    margin-bottom: 40px;
+    padding: 13px 0;
+    color : #fff;
+    height: 60px;
+}
+
+.cards-details .fas {
+    margin-right: 10px;
+}
+.cards-details p:last-child {
+    padding-bottom: 40px;
+}
+
+.card-price {
+    font-size: 19px;
+    font-weight: bold;
+    color : #fff;
+    padding-top: 5px;
+}
+
+.big{
+   
+    font-size: 3rem;
+    color : #ffdcb8;
+}
+
+
+
+
+/* footer */ 
+
+#footer {
+    background: url('../img/waterSunset.jpg') no-repeat center center/cover;
+    background-attachment: fixed;
+    height: 620px;
+    padding-top: 10px;
+    color: #fff;
+}
+
+#footer .form-group {
+    margin-bottom: 20px;
+}
+
+#footer label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#footer input , 
+#footer textarea {
+
+    width: 100%;
+    padding: 10px;
+    border : 1px solid #ddd;
+    outline: none;
+    background: rgba(255, 255, 255,0.15);
+    font-size: 18px;
+    color : #fff;
+
+}
+#footer input:focus , 
+#footer textarea:focus{
+    border-color: #f7c08a;
+
+}
+
+#footer textarea {
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 200px;
+    min-height: 200px;
+}
+
+#footer button {
+    border: none;
+    outline: none;
+    width: 100%;
+}
+#footer .copy {text-align: center;color:#ddd}
+.btnb{
+    display: inline-block;
+    background: #fff;
+    color : #f7c08a;
+    font-size: 20px;
+    padding: 13px 20px;
+    transition: .5s ease-in-out;
+    
+}
+
+.btnb:hover {
+    background:#f7c08a;
+    color :  #fff;
+}
+
