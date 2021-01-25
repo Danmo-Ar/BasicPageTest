@@ -130,7 +130,7 @@ p {
 }
 
 #navbar ul li a:hover {
-    border-top: 4px solid #fff;
+   background: #059a7c;
 }
 
 
@@ -138,7 +138,7 @@ p {
 #showcase .showcase-content {
     padding-top: 180px;
     text-align: center;
-    height: 600px;
+   
 }
 
 .showcase-content h1,
@@ -158,11 +158,7 @@ p {
     color: #f6f6f6;
 }
 
-.head-img {
-    margin-top: -70px;
-    width: 400px;
-    
-}
+
  
 /* Info */ 
 
@@ -204,14 +200,13 @@ p {
 
 /* features */ 
 .activities {
-    height: 500px;
+    height: 100%;
     margin-bottom: 40px ;
 }
 #features {
     
-    margin: 50px 0;
-    padding-bottom: 20px;
-    height: 890px;
+    margin-top: 50px;
+    height: 100%;
 }
 
 
@@ -236,7 +231,7 @@ p {
     width: 300px;
     height:400px ;
     float: left;
-    margin:0 20px ;
+    margin: 0 20px 40px ;
     background: #fff;
     box-shadow: 2px 3px 5px rgba(0, 0, 0,0.3) ;
 }
