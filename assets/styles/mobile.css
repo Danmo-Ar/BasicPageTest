@@ -3,7 +3,7 @@
 #header,
 .sunset,
 #footer {
-    background-attachment: none;
+    background-attachment:inherit;
 }
 
 /* Header */ 
