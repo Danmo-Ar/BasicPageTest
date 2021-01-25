@@ -1,3 +1,10 @@
+/* background */ 
+.left-hisrory , 
+#header,
+.sunset,
+#footer {
+    background-attachment: none;
+}
 
 /* Header */ 
 html,body {
